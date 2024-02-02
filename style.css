@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    font-size: 15pt;
+    background-color: lightpink;
+}
+
+nav{
+  display: flex;
+}
+
+nav button{
+  flex: auto;
+}
+
+button{
+    height: 50px;
+    background-color: rebeccapurple;
+    border: solid rebeccapurple;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+h1{
+  text-align: center;
+  color: rebeccapurple;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+#Ajolote-1{
+  max-width: 100%;
+  height: auto;
+}
+
+.info1{
+  text-align: center;
+  font-weight: bold;
+  color: rebeccapurple;
+  max-width: 100%;
+  height: auto;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+  color: rebeccapurple;
+  font-family: 'Archivo Black', sans-serif;
+  
+}
+
+footer{
+  display: flex;
+}
+ 
+footer button{
+  flex: auto;
+}
+
+hr{
+  
+}
+h3{
+  color: rebeccapurple;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+ul li{
+  list-style: none;
+  color: rebeccapurple;
+  font-weight: bold;
+  text-align: center;
+}
+
+video{
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.product{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+#tema{
+  display: grid;
+  grid-template-columns: repeat( 
+  auto-fit,
+  minmax(
+  190px,
+  1fr
+  )
+  )
+}
+
+.tit{
+  font-size: 40px;
+}
